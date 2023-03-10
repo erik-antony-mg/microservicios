@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/microservicioautos/Carro-Service/pom.xml" />
         <option value="$PROJECT_DIR$/microservicioUsuario/Usuario-service/pom.xml" />
+        <option value="$PROJECT_DIR$/configServer/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Carro-Service" />
+        <module name="configServer" />
         <module name="Usuario-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Carro-Service" target="11" />
+      <module name="configServer" target="11" />
       <module name="Usuario-service" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -20,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Carro-Service" options="-parameters" />
       <module name="Usuario-service" options="-parameters" />
+      <module name="configServer" options="-parameters" />
     </option>
   </component>
 </project>
