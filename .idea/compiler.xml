@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-service" />
         <module name="Carro-Service" />
         <module name="configServer" />
         <module name="Usuario-service" />
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="Carro-Service" target="11" />
       <module name="configServer" target="11" />
+      <module name="eureka-service" target="11" />
       <module name="Usuario-service" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -23,6 +25,7 @@
       <module name="Carro-Service" options="-parameters" />
       <module name="Usuario-service" options="-parameters" />
       <module name="configServer" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
     </option>
   </component>
 </project>
