@@ -18,7 +18,7 @@ spring:
         enabled: true
         uri: http://localhost:8081
   datasource:
-    url: jdbc:mysql://localhost/microservicio_usuarios
+    url: jdbc:mysql://localhost:3306/microservicio_usuarios
     username: root
     password: root
   jpa:
