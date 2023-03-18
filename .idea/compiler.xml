@@ -10,6 +10,7 @@
         <module name="eureka-service" />
         <module name="Carro-Service" />
         <module name="configServer" />
+        <module name="gateway-service" />
         <module name="Usuario-service" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="Carro-Service" target="11" />
       <module name="configServer" target="11" />
       <module name="eureka-service" target="11" />
+      <module name="gateway-service" target="11" />
       <module name="Usuario-service" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -26,6 +28,7 @@
       <module name="Usuario-service" options="-parameters" />
       <module name="configServer" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
     </option>
   </component>
 </project>

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservicioUsuario/Usuario-service/Usuario-service.iml" filepath="$PROJECT_DIR$/microservicioUsuario/Usuario-service/Usuario-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/configServer/configServer.iml" filepath="$PROJECT_DIR$/configServer/configServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/eureka-service/eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservicios.iml" filepath="$PROJECT_DIR$/.idea/microservicios.iml" />
     </modules>
   </component>
