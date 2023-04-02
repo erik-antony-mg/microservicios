@@ -14,13 +14,6 @@
         <module name="Usuario-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Carro-Service" target="11" />
-      <module name="configServer" target="11" />
-      <module name="eureka-service" target="11" />
-      <module name="gateway-service" target="11" />
-      <module name="Usuario-service" target="11" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

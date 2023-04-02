@@ -8,7 +8,8 @@ spring:
 #          default-label: configServer
 #          default-label: eureka
 #          default-label: multiple-instances
-          default-label: gateway
+#          default-label: gateway
+          default-label: circuit-breaker
           uri: https://github.com/erik-antony-mg/microservicios.git
           search-paths: config-data
 
