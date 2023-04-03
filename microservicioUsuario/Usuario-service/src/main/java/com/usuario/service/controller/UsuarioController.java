@@ -53,10 +53,10 @@ public class UsuarioController {
     }
 
     private   ResponseEntity<List<Carro>> fallbackGetCarro(@PathVariable Long usuarioId,RuntimeException e){
-    return new ResponseEntity("el usuario "+usuarioId+" tienen los carros en el taller",HttpStatus.OK);
+    return new ResponseEntity("el usuario "+usuarioId+" tienen los autos en el taller",HttpStatus.OK);
     }
 
     private  ResponseEntity<Carro> fallbackSaveCarro(@PathVariable Long usuarioId,@RequestBody Carro carro, RuntimeException e){
-        return new ResponseEntity("el usuario "+usuarioId+" tienen los carros en el taller",HttpStatus.OK);
+        return new ResponseEntity("el usuario "+usuarioId+" no tiene dinero para comprar un auto",HttpStatus.OK);
     }
 }

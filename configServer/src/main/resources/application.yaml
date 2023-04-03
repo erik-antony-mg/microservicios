@@ -9,7 +9,8 @@ spring:
 #          default-label: eureka
 #          default-label: multiple-instances
 #          default-label: gateway
-          default-label: circuit-breaker
+#          default-label: circuit-breaker
+          default-label: zipkin-sleuth
           uri: https://github.com/erik-antony-mg/microservicios.git
           search-paths: config-data
 
